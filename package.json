@@ -1,3 +1,21 @@
 {
-	"name": "io.pinf.db.postgresql"
+	"name": "io.pinf.db.postgresql",
+	"dependencies": {
+	    "bash.origin": "0.1.x",
+	    "org.pinf.genesis.lib": "0.1.x",
+	    "q": "^1.4.1"
+	},
+    "config": {
+	    "pio.pinf.io/0": {
+	      "runtime": "default-nodejs-bash"
+	    },
+	    "org.pinf.genesis.lib/0": {
+	      "api": {
+	        "consumes": {
+        	  "config": "org.pinf.genesis.lib/0/config",
+	          "Q": "q"
+	        }
+	      }
+	    }
+	}
 }
