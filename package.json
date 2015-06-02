@@ -13,7 +13,9 @@
 	      "api": {
 	        "consumes": {
         	  "config": "org.pinf.genesis.lib/0/config",
-	          "Q": "q"
+	          "Q": "q",
+	          "FS": "fs",
+	          "PATH": "path"
 	        }
 	      }
 	    }
